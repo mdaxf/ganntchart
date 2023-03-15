@@ -26,10 +26,10 @@ Sample code to use it:
       resourccolumnwidth:200,
       resourcechange: 'yes',
       resourcetype: 'line',
-      weekend: $Context.inputs.Weekend , // '0,6',	
+      weekend: '0,6',	
       start: start,
       end: end,	
-      outofworkingtime: NoWorkPeriod , //'0-4,20-24',
+      outofworkingtime: '0-4,20-24',
       on_date_change: function(task, start, end) {
 
         },
